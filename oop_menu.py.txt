@@ -1,0 +1,4 @@
+class MenuItem:
+      def__init__(self):
+            self.name=""
+            self.price=0   
