@@ -1,0 +1,19 @@
+aLine=["Mr.A","Mr.B"]
+aLine.append("Mr.C")
+aLine. pop(0)
+#aLine.remove("Mr.B")
+aLine.remove(aLine[0])
+i=1
+for person in aLine:
+    print("#%i: %s" %(i,person))
+    i=i+1
+import queue
+aList=queue.Queue()
+aList.put("Mr.A")
+aList.put("Mr.B")
+aList.put("Mr.C")
+print(aList.get())
+print(aList.get())
+
+#while not aList.empty():
+    #print(aList.get())
